@@ -1,0 +1,48 @@
+{
+ "_readme": "Background pixels, top-left origin, 1920x1080. Car A drives east (angle 90), car B drives north (angle 0). Spine car front = +Y. Only car root position comes from here; everything else is Spine.",
+ "background": "bg_landscape.png",
+ "width": 1920,
+ "height": 1080,
+ "carScale": 0.17,
+ "A": {
+  "angle": 90,
+  "idle": [
+   649,
+   542
+  ],
+  "hit": [
+   898,
+   542
+  ],
+  "runFrom": [
+   -120,
+   542
+  ],
+  "runTo": [
+   2040,
+   542
+  ]
+ },
+ "B": {
+  "angle": 0,
+  "idle": [
+   1008,
+   778
+  ],
+  "hit": [
+   1008,
+   652
+  ],
+  "runFrom": [
+   1008,
+   1200
+  ],
+  "runTo": [
+   1008,
+   -120
+  ]
+ },
+ "approach": 0.8,
+ "runSpeed": 1100,
+ "runOffsetB": 1.4
+}

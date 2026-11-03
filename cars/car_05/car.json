@@ -1,0 +1,3188 @@
+{
+ "skeleton": {
+  "hash": "car_05",
+  "spine": "4.2.40",
+  "x": -320,
+  "y": -480,
+  "width": 640,
+  "height": 960,
+  "images": "./images/",
+  "audio": "",
+  "fps": 30
+ },
+ "bones": [
+  {
+   "name": "root",
+   "scaleX": 1.2,
+   "scaleY": 1.2
+  },
+  {
+   "name": "shake",
+   "parent": "root"
+  },
+  {
+   "name": "car_main",
+   "parent": "shake"
+  },
+  {
+   "name": "wheel_FL",
+   "parent": "car_main",
+   "x": -137.25,
+   "y": 207.25
+  },
+  {
+   "name": "wheel_FR",
+   "parent": "car_main",
+   "x": 137.75,
+   "y": 207.25
+  },
+  {
+   "name": "wheel_RL",
+   "parent": "car_main",
+   "x": -138.75,
+   "y": -196.75
+  },
+  {
+   "name": "wheel_RR",
+   "parent": "car_main",
+   "x": 139.25,
+   "y": -196.75
+  },
+  {
+   "name": "body_bounce",
+   "parent": "car_main"
+  },
+  {
+   "name": "roof",
+   "parent": "body_bounce",
+   "x": -0.25,
+   "y": -61.75
+  },
+  {
+   "name": "bumper_front",
+   "parent": "body_bounce",
+   "y": 324.0
+  },
+  {
+   "name": "bumper_rear",
+   "parent": "body_bounce",
+   "x": -0.25,
+   "y": -324.5
+  },
+  {
+   "name": "mirror_L",
+   "parent": "body_bounce",
+   "x": -151.25,
+   "y": 147.0
+  },
+  {
+   "name": "mirror_R",
+   "parent": "body_bounce",
+   "x": 149.25,
+   "y": 147.0
+  },
+  {
+   "name": "rear_door_L",
+   "parent": "body_bounce",
+   "x": -101.0,
+   "y": -308.75
+  },
+  {
+   "name": "rear_door_R",
+   "parent": "body_bounce",
+   "x": 102.0,
+   "y": -308.75
+  },
+  {
+   "name": "roof_shine",
+   "parent": "body_bounce",
+   "y": 199.5
+  },
+  {
+   "name": "spark_1",
+   "parent": "car_main",
+   "x": -90.0,
+   "y": 334.0,
+   "rotation": 140
+  },
+  {
+   "name": "spark_2",
+   "parent": "car_main",
+   "x": 80.0,
+   "y": 334.0,
+   "rotation": 40
+  },
+  {
+   "name": "spark_3",
+   "parent": "car_main",
+   "y": 334.0,
+   "rotation": 90
+  },
+  {
+   "name": "dust_L1",
+   "parent": "car_main",
+   "x": -138.75,
+   "y": -234.0
+  },
+  {
+   "name": "dust_L2",
+   "parent": "car_main",
+   "x": -138.75,
+   "y": -234.0
+  },
+  {
+   "name": "dust_R1",
+   "parent": "car_main",
+   "x": 139.25,
+   "y": -234.0
+  },
+  {
+   "name": "dust_R2",
+   "parent": "car_main",
+   "x": 139.25,
+   "y": -234.0
+  },
+  {
+   "name": "smoke_1",
+   "parent": "shake",
+   "x": -206.575,
+   "y": 163.268
+  },
+  {
+   "name": "smoke_2",
+   "parent": "shake",
+   "x": -180.575,
+   "y": 169.268
+  },
+  {
+   "name": "smoke_3",
+   "parent": "shake",
+   "x": -198.575,
+   "y": 175.268
+  },
+  {
+   "name": "smoke_4",
+   "parent": "shake",
+   "x": -184.575,
+   "y": 159.268
+  }
+ ],
+ "slots": [
+  {
+   "name": "shadow",
+   "bone": "car_main",
+   "attachment": "shadow"
+  },
+  {
+   "name": "dust_L1",
+   "bone": "dust_L1",
+   "attachment": "smoke_round",
+   "color": "c8a87a00"
+  },
+  {
+   "name": "dust_L2",
+   "bone": "dust_L2",
+   "attachment": "smoke_round",
+   "color": "c8a87a00"
+  },
+  {
+   "name": "dust_R1",
+   "bone": "dust_R1",
+   "attachment": "smoke_round",
+   "color": "c8a87a00"
+  },
+  {
+   "name": "dust_R2",
+   "bone": "dust_R2",
+   "attachment": "smoke_round",
+   "color": "c8a87a00"
+  },
+  {
+   "name": "wheel_front_L",
+   "bone": "wheel_FL",
+   "attachment": "wheel_front_L"
+  },
+  {
+   "name": "wheel_front_R",
+   "bone": "wheel_FR",
+   "attachment": "wheel_front_R"
+  },
+  {
+   "name": "wheel_rear_L",
+   "bone": "wheel_RL",
+   "attachment": "wheel_rear_L"
+  },
+  {
+   "name": "wheel_rear_R",
+   "bone": "wheel_RR",
+   "attachment": "wheel_rear_R"
+  },
+  {
+   "name": "body",
+   "bone": "body_bounce",
+   "attachment": "body"
+  },
+  {
+   "name": "rear_door_L",
+   "bone": "rear_door_L",
+   "attachment": "rear_door_L"
+  },
+  {
+   "name": "rear_door_R",
+   "bone": "rear_door_R",
+   "attachment": "rear_door_R"
+  },
+  {
+   "name": "bumper_rear",
+   "bone": "bumper_rear",
+   "attachment": "bumper_rear"
+  },
+  {
+   "name": "bumper_front",
+   "bone": "bumper_front",
+   "attachment": "bumper_front"
+  },
+  {
+   "name": "fx_dent",
+   "bone": "body_bounce"
+  },
+  {
+   "name": "headlight_R",
+   "bone": "body_bounce",
+   "attachment": "headlight_R"
+  },
+  {
+   "name": "headlight_L",
+   "bone": "body_bounce",
+   "attachment": "headlight_L"
+  },
+  {
+   "name": "mirror_L",
+   "bone": "mirror_L",
+   "attachment": "mirror_L"
+  },
+  {
+   "name": "mirror_R",
+   "bone": "mirror_R",
+   "attachment": "mirror_R"
+  },
+  {
+   "name": "roof",
+   "bone": "roof",
+   "attachment": "roof"
+  },
+  {
+   "name": "roof_clip",
+   "bone": "body_bounce",
+   "attachment": "roof_clip"
+  },
+  {
+   "name": "roof_shine",
+   "bone": "roof_shine",
+   "attachment": "roof_shine",
+   "blend": "additive",
+   "color": "ffffff00"
+  },
+  {
+   "name": "tail_light_L",
+   "bone": "body_bounce",
+   "attachment": "tail_light_L"
+  },
+  {
+   "name": "tail_light_R",
+   "bone": "body_bounce",
+   "attachment": "tail_light_R"
+  },
+  {
+   "name": "car_flash",
+   "bone": "body_bounce"
+  },
+  {
+   "name": "spark_1",
+   "bone": "spark_1",
+   "blend": "additive"
+  },
+  {
+   "name": "spark_2",
+   "bone": "spark_2",
+   "blend": "additive"
+  },
+  {
+   "name": "spark_3",
+   "bone": "spark_3",
+   "blend": "additive"
+  },
+  {
+   "name": "smoke_1",
+   "bone": "smoke_1",
+   "attachment": "smoke_round",
+   "color": "8a8a9000"
+  },
+  {
+   "name": "smoke_2",
+   "bone": "smoke_2",
+   "attachment": "smoke_soft",
+   "color": "8a8a9000"
+  },
+  {
+   "name": "smoke_3",
+   "bone": "smoke_3",
+   "attachment": "smoke_round",
+   "color": "8a8a9000"
+  },
+  {
+   "name": "smoke_4",
+   "bone": "smoke_4",
+   "attachment": "smoke_soft",
+   "color": "8a8a9000"
+  }
+ ],
+ "skins": [
+  {
+   "name": "default",
+   "attachments": {
+    "shadow": {
+     "shadow": {
+      "x": 7.0,
+      "y": -14.0,
+      "width": 411,
+      "height": 756
+     }
+    },
+    "dust_L1": {
+     "smoke_round": {
+      "x": 0,
+      "y": 0,
+      "width": 220,
+      "height": 220,
+      "scaleX": 0.6,
+      "scaleY": 0.6
+     }
+    },
+    "dust_L2": {
+     "smoke_round": {
+      "x": 0,
+      "y": 0,
+      "width": 220,
+      "height": 220,
+      "scaleX": 0.6,
+      "scaleY": 0.6
+     }
+    },
+    "dust_R1": {
+     "smoke_round": {
+      "x": 0,
+      "y": 0,
+      "width": 220,
+      "height": 220,
+      "scaleX": 0.6,
+      "scaleY": 0.6
+     }
+    },
+    "dust_R2": {
+     "smoke_round": {
+      "x": 0,
+      "y": 0,
+      "width": 220,
+      "height": 220,
+      "scaleX": 0.6,
+      "scaleY": 0.6
+     }
+    },
+    "wheel_front_L": {
+     "wheel_front_L": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 40,
+      "height": 92
+     }
+    },
+    "wheel_front_R": {
+     "wheel_front_R": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 40,
+      "height": 92
+     }
+    },
+    "wheel_rear_L": {
+     "wheel_rear_L": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 40,
+      "height": 94
+     }
+    },
+    "wheel_rear_R": {
+     "wheel_rear_R": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 40,
+      "height": 94
+     }
+    },
+    "body": {
+     "body": {
+      "x": -0.25,
+      "y": -6.25,
+      "width": 294,
+      "height": 680
+     }
+    },
+    "rear_door_L": {
+     "rear_door_L": {
+      "x": 50.5,
+      "y": 0.0,
+      "width": 105,
+      "height": 54
+     }
+    },
+    "rear_door_R": {
+     "rear_door_R": {
+      "x": -50.5,
+      "y": 0.0,
+      "width": 105,
+      "height": 54
+     }
+    },
+    "bumper_rear": {
+     "bumper_rear": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 270,
+      "height": 51
+     }
+    },
+    "bumper_front": {
+     "bumper_front": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 254,
+      "height": 44
+     }
+    },
+    "fx_dent": {
+     "fx_dent": {
+      "x": 0.0,
+      "y": 271.0,
+      "width": 254,
+      "height": 110
+     }
+    },
+    "headlight_R": {
+     "headlight_R": {
+      "x": 104.75,
+      "y": 299.0,
+      "width": 54,
+      "height": 41
+     }
+    },
+    "headlight_L": {
+     "headlight_L": {
+      "x": -106.25,
+      "y": 298.25,
+      "width": 54,
+      "height": 40
+     },
+     "headlight_L_cracked": {
+      "x": -106.25,
+      "y": 298.25,
+      "width": 54,
+      "height": 40
+     }
+    },
+    "mirror_L": {
+     "mirror_L": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 50,
+      "height": 36
+     }
+    },
+    "mirror_R": {
+     "mirror_R": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 50,
+      "height": 36
+     }
+    },
+    "roof": {
+     "roof": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 234,
+      "height": 442
+     }
+    },
+    "roof_clip": {
+     "roof_clip": {
+      "type": "clipping",
+      "end": "roof_shine",
+      "vertexCount": 8,
+      "vertices": [
+       -89.0,
+       153.5,
+       88.5,
+       153.5,
+       110.5,
+       131.5,
+       110.5,
+       -255.0,
+       88.5,
+       -277.0,
+       -89.0,
+       -277.0,
+       -111.0,
+       -255.0,
+       -111.0,
+       131.5
+      ],
+      "color": "ce3a3aff"
+     }
+    },
+    "roof_shine": {
+     "roof_shine": {
+      "x": 0,
+      "y": 0,
+      "width": 320,
+      "height": 200,
+      "scaleX": 1.15,
+      "scaleY": 1.15
+     }
+    },
+    "tail_light_L": {
+     "tail_light_L": {
+      "x": -106.75,
+      "y": -315.75,
+      "width": 36,
+      "height": 32
+     }
+    },
+    "tail_light_R": {
+     "tail_light_R": {
+      "x": 106.25,
+      "y": -315.75,
+      "width": 36,
+      "height": 32
+     }
+    },
+    "car_flash": {
+     "car_flash": {
+      "x": 0.0,
+      "y": -3.0,
+      "width": 353,
+      "height": 698
+     }
+    },
+    "spark_1": {
+     "spark_small": {
+      "x": 0,
+      "y": 0,
+      "width": 90,
+      "height": 81,
+      "rotation": -45
+     }
+    },
+    "spark_2": {
+     "spark_small": {
+      "x": 0,
+      "y": 0,
+      "width": 90,
+      "height": 81,
+      "rotation": -45
+     }
+    },
+    "spark_3": {
+     "spark_small": {
+      "x": 0,
+      "y": 0,
+      "width": 90,
+      "height": 81,
+      "rotation": -45
+     }
+    },
+    "smoke_1": {
+     "smoke_round": {
+      "x": 0,
+      "y": 0,
+      "width": 220,
+      "height": 220,
+      "scaleX": 0.6,
+      "scaleY": 0.6
+     }
+    },
+    "smoke_2": {
+     "smoke_soft": {
+      "x": 0,
+      "y": 0,
+      "width": 220,
+      "height": 193,
+      "scaleX": 0.6,
+      "scaleY": 0.6
+     }
+    },
+    "smoke_3": {
+     "smoke_round": {
+      "x": 0,
+      "y": 0,
+      "width": 220,
+      "height": 220,
+      "scaleX": 0.6,
+      "scaleY": 0.6
+     }
+    },
+    "smoke_4": {
+     "smoke_soft": {
+      "x": 0,
+      "y": 0,
+      "width": 220,
+      "height": 193,
+      "scaleX": 0.6,
+      "scaleY": 0.6
+     }
+    }
+   }
+  }
+ ],
+ "events": {
+  "sfx_crash": {},
+  "crash_end": {}
+ },
+ "animations": {
+  "idle": {
+   "bones": {
+    "roof_shine": {
+     "translate": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "time": 0.2,
+       "x": 0,
+       "y": 0,
+       "curve": [
+        0.8,
+        0,
+        1.4,
+        0,
+        0.6,
+        0,
+        1.6,
+        -522.5
+       ]
+      },
+      {
+       "time": 1.9,
+       "x": 0,
+       "y": -522.5
+      },
+      {
+       "time": 2.4,
+       "x": 0,
+       "y": -522.5
+      }
+     ]
+    },
+    "body_bounce": {
+     "translate": [
+      {
+       "x": -0.054,
+       "y": -0.307
+      },
+      {
+       "time": 0.15,
+       "x": -0.271,
+       "y": -0.134
+      },
+      {
+       "time": 0.3,
+       "x": 0.162,
+       "y": 0.35
+      },
+      {
+       "time": 0.45,
+       "x": -0.004,
+       "y": 0.057
+      },
+      {
+       "time": 0.6,
+       "x": 0.384,
+       "y": 0.112
+      },
+      {
+       "time": 0.75,
+       "x": 0.391,
+       "y": 0.017
+      },
+      {
+       "time": 0.9,
+       "x": -0.168,
+       "y": -0.19
+      },
+      {
+       "time": 1.05,
+       "x": 0.255,
+       "y": -0.33
+      },
+      {
+       "time": 1.2,
+       "x": -0.342,
+       "y": 0.237
+      },
+      {
+       "time": 1.35,
+       "x": 0.055,
+       "y": 0.174
+      },
+      {
+       "time": 1.5,
+       "x": -0.21,
+       "y": -0.04
+      },
+      {
+       "time": 1.65,
+       "x": 0.098,
+       "y": -0.218
+      },
+      {
+       "time": 1.8,
+       "x": -0.237,
+       "y": 0.304
+      },
+      {
+       "time": 1.95,
+       "x": -0.089,
+       "y": -0.028
+      },
+      {
+       "time": 2.1,
+       "x": -0.341,
+       "y": 0.117
+      },
+      {
+       "time": 2.25,
+       "x": -0.314,
+       "y": -0.138
+      },
+      {
+       "time": 2.4,
+       "x": -0.054,
+       "y": -0.307
+      }
+     ]
+    }
+   },
+   "slots": {
+    "roof_shine": {
+     "rgba": [
+      {
+       "color": "ffffff00"
+      },
+      {
+       "time": 0.2,
+       "color": "ffffff00"
+      },
+      {
+       "time": 0.55,
+       "color": "ffffffb0"
+      },
+      {
+       "time": 1.5,
+       "color": "ffffffa0"
+      },
+      {
+       "time": 1.9,
+       "color": "ffffff00"
+      },
+      {
+       "time": 2.4,
+       "color": "ffffff00"
+      }
+     ]
+    }
+   }
+  },
+  "run": {
+   "bones": {
+    "body_bounce": {
+     "shear": [
+      {
+       "x": 2.0,
+       "y": 0
+      },
+      {
+       "time": 0.05,
+       "x": 1.848,
+       "y": 0
+      },
+      {
+       "time": 0.1,
+       "x": 1.414,
+       "y": 0
+      },
+      {
+       "time": 0.15,
+       "x": 0.765,
+       "y": 0
+      },
+      {
+       "time": 0.2,
+       "x": 0.0,
+       "y": 0
+      },
+      {
+       "time": 0.25,
+       "x": -0.765,
+       "y": 0
+      },
+      {
+       "time": 0.3,
+       "x": -1.414,
+       "y": 0
+      },
+      {
+       "time": 0.35,
+       "x": -1.848,
+       "y": 0
+      },
+      {
+       "time": 0.4,
+       "x": -2.0,
+       "y": 0
+      },
+      {
+       "time": 0.45,
+       "x": -1.848,
+       "y": 0
+      },
+      {
+       "time": 0.5,
+       "x": -1.414,
+       "y": 0
+      },
+      {
+       "time": 0.55,
+       "x": -0.765,
+       "y": 0
+      },
+      {
+       "time": 0.6,
+       "x": 0.0,
+       "y": 0
+      },
+      {
+       "time": 0.65,
+       "x": 0.765,
+       "y": 0
+      },
+      {
+       "time": 0.7,
+       "x": 1.414,
+       "y": 0
+      },
+      {
+       "time": 0.75,
+       "x": 1.848,
+       "y": 0
+      },
+      {
+       "time": 0.8,
+       "x": 2.0,
+       "y": 0
+      }
+     ],
+     "translate": [
+      {
+       "x": -2.0,
+       "y": 0
+      },
+      {
+       "time": 0.05,
+       "x": -1.848,
+       "y": 0
+      },
+      {
+       "time": 0.1,
+       "x": -1.414,
+       "y": 0
+      },
+      {
+       "time": 0.15,
+       "x": -0.765,
+       "y": 0
+      },
+      {
+       "time": 0.2,
+       "x": -0.0,
+       "y": 0
+      },
+      {
+       "time": 0.25,
+       "x": 0.765,
+       "y": 0
+      },
+      {
+       "time": 0.3,
+       "x": 1.414,
+       "y": 0
+      },
+      {
+       "time": 0.35,
+       "x": 1.848,
+       "y": 0
+      },
+      {
+       "time": 0.4,
+       "x": 2.0,
+       "y": 0
+      },
+      {
+       "time": 0.45,
+       "x": 1.848,
+       "y": 0
+      },
+      {
+       "time": 0.5,
+       "x": 1.414,
+       "y": 0
+      },
+      {
+       "time": 0.55,
+       "x": 0.765,
+       "y": 0
+      },
+      {
+       "time": 0.6,
+       "x": -0.0,
+       "y": 0
+      },
+      {
+       "time": 0.65,
+       "x": -0.765,
+       "y": 0
+      },
+      {
+       "time": 0.7,
+       "x": -1.414,
+       "y": 0
+      },
+      {
+       "time": 0.75,
+       "x": -1.848,
+       "y": 0
+      },
+      {
+       "time": 0.8,
+       "x": -2.0,
+       "y": 0
+      }
+     ],
+     "scale": [
+      {
+       "x": 1,
+       "y": 1
+      },
+      {
+       "time": 0.2,
+       "x": 0.995,
+       "y": 1
+      },
+      {
+       "time": 0.4,
+       "x": 1,
+       "y": 1
+      },
+      {
+       "time": 0.6,
+       "x": 0.995,
+       "y": 1
+      },
+      {
+       "time": 0.8,
+       "x": 1,
+       "y": 1
+      }
+     ]
+    },
+    "mirror_L": {
+     "rotate": [
+      {
+       "value": 0
+      },
+      {
+       "time": 0.4,
+       "value": -4
+      },
+      {
+       "time": 0.8,
+       "value": 0
+      }
+     ]
+    },
+    "mirror_R": {
+     "rotate": [
+      {
+       "value": 0
+      },
+      {
+       "time": 0.4,
+       "value": 4
+      },
+      {
+       "time": 0.8,
+       "value": 0
+      }
+     ]
+    },
+    "wheel_FL": {
+     "translate": [
+      {
+       "x": -0.376,
+       "y": 0
+      },
+      {
+       "time": 0.08,
+       "x": -0.37,
+       "y": 0
+      },
+      {
+       "time": 0.16,
+       "x": -0.128,
+       "y": 0
+      },
+      {
+       "time": 0.24,
+       "x": 0.166,
+       "y": 0
+      },
+      {
+       "time": 0.32,
+       "x": 0.272,
+       "y": 0
+      },
+      {
+       "time": 0.4,
+       "x": -0.278,
+       "y": 0
+      },
+      {
+       "time": 0.48,
+       "x": -0.066,
+       "y": 0
+      },
+      {
+       "time": 0.56,
+       "x": 0.391,
+       "y": 0
+      },
+      {
+       "time": 0.64,
+       "x": 0.575,
+       "y": 0
+      },
+      {
+       "time": 0.72,
+       "x": -0.562,
+       "y": 0
+      },
+      {
+       "time": 0.8,
+       "x": -0.376,
+       "y": 0
+      }
+     ]
+    },
+    "wheel_FR": {
+     "translate": [
+      {
+       "x": -0.565,
+       "y": 0
+      },
+      {
+       "time": 0.08,
+       "x": 0.334,
+       "y": 0
+      },
+      {
+       "time": 0.16,
+       "x": -0.587,
+       "y": 0
+      },
+      {
+       "time": 0.24,
+       "x": -0.178,
+       "y": 0
+      },
+      {
+       "time": 0.32,
+       "x": -0.32,
+       "y": 0
+      },
+      {
+       "time": 0.4,
+       "x": 0.252,
+       "y": 0
+      },
+      {
+       "time": 0.48,
+       "x": 0.34,
+       "y": 0
+      },
+      {
+       "time": 0.56,
+       "x": 0.374,
+       "y": 0
+      },
+      {
+       "time": 0.64,
+       "x": -0.402,
+       "y": 0
+      },
+      {
+       "time": 0.72,
+       "x": -0.473,
+       "y": 0
+      },
+      {
+       "time": 0.8,
+       "x": -0.565,
+       "y": 0
+      }
+     ]
+    },
+    "dust_L1": {
+     "translate": [
+      {
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "time": 0.55,
+       "x": -40.0,
+       "y": -140.0
+      },
+      {
+       "time": 0.8,
+       "x": 0.0,
+       "y": 0.0
+      }
+     ],
+     "scale": [
+      {
+       "x": 0.3,
+       "y": 0.3
+      },
+      {
+       "time": 0.55,
+       "x": 1.2,
+       "y": 1.1
+      },
+      {
+       "time": 0.8,
+       "x": 0.3,
+       "y": 0.3
+      }
+     ]
+    },
+    "dust_L2": {
+     "translate": [
+      {
+       "x": -29.091,
+       "y": -101.818
+      },
+      {
+       "time": 0.15,
+       "x": -40.0,
+       "y": -140.0
+      },
+      {
+       "time": 0.399,
+       "x": -40,
+       "y": -140
+      },
+      {
+       "time": 0.4,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "time": 0.8,
+       "x": -29.091,
+       "y": -101.818
+      }
+     ],
+     "scale": [
+      {
+       "x": 0.955,
+       "y": 0.882
+      },
+      {
+       "time": 0.15,
+       "x": 1.2,
+       "y": 1.1
+      },
+      {
+       "time": 0.399,
+       "x": 1.2,
+       "y": 1.1
+      },
+      {
+       "time": 0.4,
+       "x": 0.3,
+       "y": 0.3
+      },
+      {
+       "time": 0.8,
+       "x": 0.955,
+       "y": 0.882
+      }
+     ]
+    },
+    "dust_R1": {
+     "translate": [
+      {
+       "x": 40,
+       "y": -140
+      },
+      {
+       "time": 0.099,
+       "x": 40,
+       "y": -140
+      },
+      {
+       "time": 0.1,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "time": 0.65,
+       "x": 40.0,
+       "y": -140.0
+      },
+      {
+       "time": 0.8,
+       "x": 40,
+       "y": -140
+      }
+     ],
+     "scale": [
+      {
+       "x": 1.2,
+       "y": 1.1
+      },
+      {
+       "time": 0.099,
+       "x": 1.2,
+       "y": 1.1
+      },
+      {
+       "time": 0.1,
+       "x": 0.3,
+       "y": 0.3
+      },
+      {
+       "time": 0.65,
+       "x": 1.2,
+       "y": 1.1
+      },
+      {
+       "time": 0.8,
+       "x": 1.2,
+       "y": 1.1
+      }
+     ]
+    },
+    "dust_R2": {
+     "translate": [
+      {
+       "x": 21.818,
+       "y": -76.364
+      },
+      {
+       "time": 0.25,
+       "x": 40.0,
+       "y": -140.0
+      },
+      {
+       "time": 0.499,
+       "x": 40,
+       "y": -140
+      },
+      {
+       "time": 0.5,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "time": 0.8,
+       "x": 21.818,
+       "y": -76.364
+      }
+     ],
+     "scale": [
+      {
+       "x": 0.791,
+       "y": 0.736
+      },
+      {
+       "time": 0.25,
+       "x": 1.2,
+       "y": 1.1
+      },
+      {
+       "time": 0.499,
+       "x": 1.2,
+       "y": 1.1
+      },
+      {
+       "time": 0.5,
+       "x": 0.3,
+       "y": 0.3
+      },
+      {
+       "time": 0.8,
+       "x": 0.791,
+       "y": 0.736
+      }
+     ]
+    }
+   },
+   "slots": {
+    "dust_L1": {
+     "rgba": [
+      {
+       "color": "c8a87a00"
+      },
+      {
+       "time": 0.06,
+       "color": "c8a87abf"
+      },
+      {
+       "time": 0.55,
+       "color": "c8a87a00"
+      },
+      {
+       "time": 0.8,
+       "color": "c8a87a00"
+      }
+     ]
+    },
+    "dust_L2": {
+     "rgba": [
+      {
+       "color": "c8a87a3a"
+      },
+      {
+       "time": 0.15,
+       "color": "c8a87a00"
+      },
+      {
+       "time": 0.399,
+       "color": "c8a87a00"
+      },
+      {
+       "time": 0.4,
+       "color": "c8a87a00"
+      },
+      {
+       "time": 0.46,
+       "color": "c8a87abf"
+      },
+      {
+       "time": 0.8,
+       "color": "c8a87a3a"
+      }
+     ]
+    },
+    "dust_R1": {
+     "rgba": [
+      {
+       "color": "c8a87a00"
+      },
+      {
+       "time": 0.099,
+       "color": "c8a87a00"
+      },
+      {
+       "time": 0.1,
+       "color": "c8a87a00"
+      },
+      {
+       "time": 0.16,
+       "color": "c8a87abf"
+      },
+      {
+       "time": 0.65,
+       "color": "c8a87a00"
+      },
+      {
+       "time": 0.8,
+       "color": "c8a87a00"
+      }
+     ]
+    },
+    "dust_R2": {
+     "rgba": [
+      {
+       "color": "c8a87a61"
+      },
+      {
+       "time": 0.25,
+       "color": "c8a87a00"
+      },
+      {
+       "time": 0.499,
+       "color": "c8a87a00"
+      },
+      {
+       "time": 0.5,
+       "color": "c8a87a00"
+      },
+      {
+       "time": 0.56,
+       "color": "c8a87abf"
+      },
+      {
+       "time": 0.8,
+       "color": "c8a87a61"
+      }
+     ]
+    }
+   }
+  },
+  "crash": {
+   "bones": {
+    "car_main": {
+     "translate": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "time": 0.033,
+       "x": 0,
+       "y": 14
+      },
+      {
+       "time": 0.067,
+       "x": 0,
+       "y": 0
+      }
+     ],
+     "rotate": [
+      {
+       "value": 0
+      },
+      {
+       "time": 0.067,
+       "value": 0,
+       "curve": [
+        0.091,
+        38.5,
+        0.157,
+        70
+       ]
+      },
+      {
+       "time": 0.267,
+       "value": 70
+      },
+      {
+       "time": 0.467,
+       "value": 55,
+       "curve": [
+        0.6,
+        55,
+        0.8,
+        50
+       ]
+      },
+      {
+       "time": 0.933,
+       "value": 50
+      }
+     ]
+    },
+    "body_bounce": {
+     "scale": [
+      {
+       "x": 1,
+       "y": 1
+      },
+      {
+       "time": 0.033,
+       "x": 1.06,
+       "y": 0.92
+      },
+      {
+       "time": 0.067,
+       "x": 1.06,
+       "y": 0.92
+      },
+      {
+       "time": 0.167,
+       "x": 0.98,
+       "y": 1.03
+      },
+      {
+       "time": 0.267,
+       "x": 1,
+       "y": 1
+      },
+      {
+       "time": 0.467,
+       "x": 1,
+       "y": 1
+      },
+      {
+       "time": 0.6,
+       "x": 1.03,
+       "y": 0.97
+      },
+      {
+       "time": 0.733,
+       "x": 0.99,
+       "y": 1.02
+      },
+      {
+       "time": 0.867,
+       "x": 1,
+       "y": 1
+      }
+     ]
+    },
+    "shake": {
+     "translate": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "time": 0.067,
+       "x": 0,
+       "y": 0
+      },
+      {
+       "time": 0.1,
+       "x": 3.6,
+       "y": -6.0
+      },
+      {
+       "time": 0.133,
+       "x": -5.5,
+       "y": 3.85
+      },
+      {
+       "time": 0.167,
+       "x": 5.0,
+       "y": -5.0
+      },
+      {
+       "time": 0.2,
+       "x": -2.7,
+       "y": 3.15
+      },
+      {
+       "time": 0.233,
+       "x": 4.0,
+       "y": -4.0
+      },
+      {
+       "time": 0.267,
+       "x": -3.5,
+       "y": 2.45
+      },
+      {
+       "time": 0.3,
+       "x": 1.8,
+       "y": -3.0
+      },
+      {
+       "time": 0.333,
+       "x": -2.5,
+       "y": 1.75
+      },
+      {
+       "time": 0.367,
+       "x": 2.0,
+       "y": -2.0
+      },
+      {
+       "time": 0.4,
+       "x": -0.9,
+       "y": 1.05
+      },
+      {
+       "time": 0.433,
+       "x": 1.0,
+       "y": -1.0
+      },
+      {
+       "time": 0.467,
+       "x": 0,
+       "y": 0
+      }
+     ]
+    },
+    "spark_1": {
+     "scale": [
+      {
+       "x": 0.4,
+       "y": 0.4
+      },
+      {
+       "time": 0.1,
+       "x": 0.5,
+       "y": 0.5
+      },
+      {
+       "time": 0.2,
+       "x": 1.3,
+       "y": 1.3
+      },
+      {
+       "time": 0.333,
+       "x": 0.8,
+       "y": 0.8
+      }
+     ]
+    },
+    "spark_2": {
+     "scale": [
+      {
+       "x": 0.4,
+       "y": 0.4
+      },
+      {
+       "time": 0.133,
+       "x": 0.5,
+       "y": 0.5
+      },
+      {
+       "time": 0.233,
+       "x": 1.3,
+       "y": 1.3
+      },
+      {
+       "time": 0.333,
+       "x": 0.8,
+       "y": 0.8
+      }
+     ]
+    },
+    "spark_3": {
+     "scale": [
+      {
+       "x": 0.4,
+       "y": 0.4
+      },
+      {
+       "time": 0.167,
+       "x": 0.5,
+       "y": 0.5
+      },
+      {
+       "time": 0.267,
+       "x": 1.3,
+       "y": 1.3
+      },
+      {
+       "time": 0.333,
+       "x": 0.8,
+       "y": 0.8
+      }
+     ]
+    },
+    "bumper_front": {
+     "translate": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "time": 0.1,
+       "x": 0,
+       "y": 0,
+       "curve": [
+        0.128,
+        5.5,
+        0.205,
+        10,
+        0.128,
+        22.0,
+        0.205,
+        40
+       ]
+      },
+      {
+       "time": 0.333,
+       "x": 10,
+       "y": 40
+      }
+     ],
+     "rotate": [
+      {
+       "value": 0
+      },
+      {
+       "time": 0.1,
+       "value": 0,
+       "curve": [
+        0.128,
+        110.0,
+        0.205,
+        200
+       ]
+      },
+      {
+       "time": 0.333,
+       "value": 200
+      }
+     ]
+    },
+    "roof": {
+     "scale": [
+      {
+       "x": 1,
+       "y": 1
+      },
+      {
+       "time": 0.133,
+       "x": 1,
+       "y": 1,
+       "curve": [
+        0.165,
+        1.0,
+        0.253,
+        1,
+        0.165,
+        0.972,
+        0.253,
+        0.95
+       ]
+      },
+      {
+       "time": 0.4,
+       "x": 1,
+       "y": 0.95
+      }
+     ],
+     "rotate": [
+      {
+       "value": 0
+      },
+      {
+       "time": 0.133,
+       "value": 0,
+       "curve": [
+        0.165,
+        1.65,
+        0.253,
+        3
+       ]
+      },
+      {
+       "time": 0.4,
+       "value": 3
+      }
+     ],
+     "translate": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "time": 0.133,
+       "x": 0,
+       "y": 0,
+       "curve": [
+        0.165,
+        2.2,
+        0.253,
+        4,
+        0.165,
+        -1.1,
+        0.253,
+        -2
+       ]
+      },
+      {
+       "time": 0.4,
+       "x": 4,
+       "y": -2
+      }
+     ]
+    },
+    "rear_door_L": {
+     "rotate": [
+      {
+       "value": 0
+      },
+      {
+       "time": 0.2,
+       "value": 0
+      },
+      {
+       "time": 0.367,
+       "value": -78
+      },
+      {
+       "time": 0.467,
+       "value": -64
+      },
+      {
+       "time": 0.533,
+       "value": -70
+      }
+     ]
+    },
+    "mirror_R": {
+     "translate": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "time": 0.2,
+       "x": 0,
+       "y": 0,
+       "curve": [
+        0.232,
+        49.5,
+        0.32,
+        90,
+        0.232,
+        22.0,
+        0.32,
+        40
+       ]
+      },
+      {
+       "time": 0.467,
+       "x": 90,
+       "y": 40
+      }
+     ],
+     "rotate": [
+      {
+       "value": 0
+      },
+      {
+       "time": 0.2,
+       "value": 0
+      },
+      {
+       "time": 0.467,
+       "value": -360
+      }
+     ],
+     "scale": [
+      {
+       "x": 1,
+       "y": 1
+      },
+      {
+       "time": 0.333,
+       "x": 1.25,
+       "y": 1.25
+      },
+      {
+       "time": 0.467,
+       "x": 1,
+       "y": 1
+      }
+     ]
+    },
+    "wheel_FR": {
+     "rotate": [
+      {
+       "value": 0
+      },
+      {
+       "time": 0.267,
+       "value": 0
+      },
+      {
+       "time": 0.333,
+       "value": 15
+      },
+      {
+       "time": 0.4,
+       "value": -15
+      },
+      {
+       "time": 0.467,
+       "value": 12
+      },
+      {
+       "time": 0.533,
+       "value": -8
+      },
+      {
+       "time": 0.6,
+       "value": 5
+      }
+     ],
+     "translate": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "time": 0.267,
+       "x": 0,
+       "y": 0,
+       "curve": [
+        0.283,
+        4.4,
+        0.327,
+        8,
+        0.283,
+        0.0,
+        0.327,
+        0
+       ]
+      },
+      {
+       "time": 0.4,
+       "x": 8,
+       "y": 0
+      }
+     ]
+    },
+    "smoke_1": {
+     "translate": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "time": 0.4,
+       "x": 0,
+       "y": 0,
+       "curve": [
+        0.448,
+        -5.5,
+        0.58,
+        -10,
+        0.448,
+        60.5,
+        0.58,
+        110
+       ]
+      },
+      {
+       "time": 0.8,
+       "x": -10,
+       "y": 110
+      }
+     ],
+     "scale": [
+      {
+       "x": 0.3,
+       "y": 0.3
+      },
+      {
+       "time": 0.4,
+       "x": 0.3,
+       "y": 0.3,
+       "curve": [
+        0.448,
+        0.905,
+        0.58,
+        1.4,
+        0.448,
+        0.905,
+        0.58,
+        1.4
+       ]
+      },
+      {
+       "time": 0.8,
+       "x": 1.4,
+       "y": 1.4
+      }
+     ]
+    },
+    "smoke_2": {
+     "translate": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "time": 0.533,
+       "x": 0,
+       "y": 0,
+       "curve": [
+        0.581,
+        6.6,
+        0.713,
+        12,
+        0.581,
+        60.5,
+        0.713,
+        110
+       ]
+      },
+      {
+       "time": 0.933,
+       "x": 12,
+       "y": 110
+      }
+     ],
+     "scale": [
+      {
+       "x": 0.3,
+       "y": 0.3
+      },
+      {
+       "time": 0.533,
+       "x": 0.3,
+       "y": 0.3,
+       "curve": [
+        0.581,
+        0.905,
+        0.713,
+        1.4,
+        0.581,
+        0.905,
+        0.713,
+        1.4
+       ]
+      },
+      {
+       "time": 0.933,
+       "x": 1.4,
+       "y": 1.4
+      }
+     ]
+    },
+    "smoke_3": {
+     "translate": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "time": 0.667,
+       "x": 0,
+       "y": 0,
+       "curve": [
+        0.715,
+        -3.3,
+        0.847,
+        -6,
+        0.715,
+        60.5,
+        0.847,
+        110
+       ]
+      },
+      {
+       "time": 1.067,
+       "x": -6,
+       "y": 110
+      }
+     ],
+     "scale": [
+      {
+       "x": 0.3,
+       "y": 0.3
+      },
+      {
+       "time": 0.667,
+       "x": 0.3,
+       "y": 0.3,
+       "curve": [
+        0.715,
+        0.905,
+        0.847,
+        1.4,
+        0.715,
+        0.905,
+        0.847,
+        1.4
+       ]
+      },
+      {
+       "time": 1.067,
+       "x": 1.4,
+       "y": 1.4
+      }
+     ]
+    },
+    "smoke_4": {
+     "translate": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "time": 0.8,
+       "x": 0,
+       "y": 0,
+       "curve": [
+        0.848,
+        4.4,
+        0.98,
+        8,
+        0.848,
+        60.5,
+        0.98,
+        110
+       ]
+      },
+      {
+       "time": 1.2,
+       "x": 8,
+       "y": 110
+      }
+     ],
+     "scale": [
+      {
+       "x": 0.3,
+       "y": 0.3
+      },
+      {
+       "time": 0.8,
+       "x": 0.3,
+       "y": 0.3,
+       "curve": [
+        0.848,
+        0.905,
+        0.98,
+        1.4,
+        0.848,
+        0.905,
+        0.98,
+        1.4
+       ]
+      },
+      {
+       "time": 1.2,
+       "x": 1.4,
+       "y": 1.4
+      }
+     ]
+    }
+   },
+   "slots": {
+    "car_flash": {
+     "attachment": [
+      {
+       "name": "car_flash"
+      },
+      {
+       "time": 0.033,
+       "name": null
+      }
+     ]
+    },
+    "fx_dent": {
+     "attachment": [
+      {
+       "name": null
+      },
+      {
+       "time": 0.1,
+       "name": "fx_dent"
+      }
+     ],
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.4,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.667,
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "headlight_L": {
+     "attachment": [
+      {
+       "name": "headlight_L"
+      },
+      {
+       "time": 0.1,
+       "name": "headlight_L_cracked"
+      }
+     ],
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.1,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.167,
+       "color": "ffffff4d"
+      },
+      {
+       "time": 0.2,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.267,
+       "color": "ffffff33"
+      },
+      {
+       "time": 0.3,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.367,
+       "color": "ffffff66"
+      },
+      {
+       "time": 0.4,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.667,
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "wheel_front_L": {
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.4,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.667,
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "wheel_front_R": {
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.4,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.667,
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "wheel_rear_L": {
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.4,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.667,
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "wheel_rear_R": {
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.4,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.667,
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "body": {
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.4,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.667,
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "rear_door_L": {
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.4,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.667,
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "rear_door_R": {
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.4,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.667,
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "bumper_rear": {
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.4,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.667,
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "bumper_front": {
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.1,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.333,
+       "color": "ffffff00"
+      }
+     ]
+    },
+    "headlight_R": {
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.4,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.667,
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "mirror_L": {
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.4,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.667,
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "mirror_R": {
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.267,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.467,
+       "color": "ffffff00"
+      }
+     ]
+    },
+    "roof": {
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.4,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.667,
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "tail_light_L": {
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.4,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.667,
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "tail_light_R": {
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.4,
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.667,
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "spark_1": {
+     "attachment": [
+      {
+       "name": null
+      },
+      {
+       "time": 0.1,
+       "name": "spark_small"
+      },
+      {
+       "time": 0.367,
+       "name": null
+      }
+     ],
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.233,
+       "color": "ffffffcc"
+      },
+      {
+       "time": 0.333,
+       "color": "ffffff00"
+      }
+     ]
+    },
+    "spark_2": {
+     "attachment": [
+      {
+       "name": null
+      },
+      {
+       "time": 0.133,
+       "name": "spark_small"
+      },
+      {
+       "time": 0.367,
+       "name": null
+      }
+     ],
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.233,
+       "color": "ffffffcc"
+      },
+      {
+       "time": 0.333,
+       "color": "ffffff00"
+      }
+     ]
+    },
+    "spark_3": {
+     "attachment": [
+      {
+       "name": null
+      },
+      {
+       "time": 0.167,
+       "name": "spark_small"
+      },
+      {
+       "time": 0.367,
+       "name": null
+      }
+     ],
+     "rgba": [
+      {
+       "color": "ffffffff"
+      },
+      {
+       "time": 0.233,
+       "color": "ffffffcc"
+      },
+      {
+       "time": 0.333,
+       "color": "ffffff00"
+      }
+     ]
+    },
+    "smoke_1": {
+     "rgba": [
+      {
+       "color": "8a8a9000"
+      },
+      {
+       "time": 0.4,
+       "color": "8a8a9000"
+      },
+      {
+       "time": 0.52,
+       "color": "8a8a9066"
+      },
+      {
+       "time": 0.8,
+       "color": "9a9aa000"
+      }
+     ]
+    },
+    "smoke_2": {
+     "rgba": [
+      {
+       "color": "8a8a9000"
+      },
+      {
+       "time": 0.533,
+       "color": "8a8a9000"
+      },
+      {
+       "time": 0.653,
+       "color": "8a8a9066"
+      },
+      {
+       "time": 0.933,
+       "color": "9a9aa000"
+      }
+     ]
+    },
+    "smoke_3": {
+     "rgba": [
+      {
+       "color": "8a8a9000"
+      },
+      {
+       "time": 0.667,
+       "color": "8a8a9000"
+      },
+      {
+       "time": 0.787,
+       "color": "8a8a9066"
+      },
+      {
+       "time": 1.067,
+       "color": "9a9aa000"
+      }
+     ]
+    },
+    "smoke_4": {
+     "rgba": [
+      {
+       "color": "8a8a9000"
+      },
+      {
+       "time": 0.8,
+       "color": "8a8a9000"
+      },
+      {
+       "time": 0.92,
+       "color": "8a8a9066"
+      },
+      {
+       "time": 1.2,
+       "color": "9a9aa000"
+      }
+     ]
+    }
+   },
+   "events": [
+    {
+     "name": "sfx_crash"
+    },
+    {
+     "time": 1.2,
+     "name": "crash_end"
+    }
+   ]
+  },
+  "wreck": {
+   "bones": {
+    "car_main": {
+     "translate": [
+      {
+       "x": 0,
+       "y": 0
+      }
+     ],
+     "rotate": [
+      {
+       "value": 50
+      }
+     ]
+    },
+    "roof": {
+     "scale": [
+      {
+       "x": 1,
+       "y": 0.95
+      }
+     ],
+     "rotate": [
+      {
+       "value": 3
+      }
+     ],
+     "translate": [
+      {
+       "x": 4,
+       "y": -2
+      }
+     ]
+    },
+    "rear_door_L": {
+     "rotate": [
+      {
+       "value": -70
+      }
+     ]
+    },
+    "mirror_R": {
+     "translate": [
+      {
+       "x": 90,
+       "y": 40
+      }
+     ],
+     "rotate": [
+      {
+       "value": -360
+      }
+     ],
+     "scale": [
+      {
+       "x": 1,
+       "y": 1
+      }
+     ]
+    },
+    "wheel_FR": {
+     "rotate": [
+      {
+       "value": 5
+      }
+     ],
+     "translate": [
+      {
+       "x": 8,
+       "y": 0
+      }
+     ]
+    },
+    "bumper_front": {
+     "translate": [
+      {
+       "x": 10,
+       "y": 40
+      }
+     ],
+     "rotate": [
+      {
+       "value": 200
+      }
+     ]
+    },
+    "smoke_1": {
+     "translate": [
+      {
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "time": 1.4,
+       "x": -10.0,
+       "y": 130.0
+      },
+      {
+       "time": 2.0,
+       "x": 0.0,
+       "y": 0.0
+      }
+     ],
+     "scale": [
+      {
+       "x": 0.3,
+       "y": 0.3
+      },
+      {
+       "time": 1.4,
+       "x": 1.4,
+       "y": 1.4
+      },
+      {
+       "time": 2.0,
+       "x": 0.3,
+       "y": 0.3
+      }
+     ]
+    },
+    "smoke_2": {
+     "translate": [
+      {
+       "x": 0,
+       "y": 130
+      },
+      {
+       "time": 0.499,
+       "x": 0,
+       "y": 130
+      },
+      {
+       "time": 0.5,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "time": 1.9,
+       "x": 12.0,
+       "y": 130.0
+      },
+      {
+       "time": 2.0,
+       "x": 0,
+       "y": 130
+      }
+     ],
+     "scale": [
+      {
+       "x": 1.4,
+       "y": 1.4
+      },
+      {
+       "time": 0.499,
+       "x": 1.4,
+       "y": 1.4
+      },
+      {
+       "time": 0.5,
+       "x": 0.3,
+       "y": 0.3
+      },
+      {
+       "time": 1.9,
+       "x": 1.4,
+       "y": 1.4
+      },
+      {
+       "time": 2.0,
+       "x": 1.4,
+       "y": 1.4
+      }
+     ]
+    },
+    "smoke_3": {
+     "translate": [
+      {
+       "x": -4.286,
+       "y": 92.857
+      },
+      {
+       "time": 0.4,
+       "x": -6.0,
+       "y": 130.0
+      },
+      {
+       "time": 0.999,
+       "x": 0,
+       "y": 130
+      },
+      {
+       "time": 1.0,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "time": 2.0,
+       "x": -4.286,
+       "y": 92.857
+      }
+     ],
+     "scale": [
+      {
+       "x": 1.086,
+       "y": 1.086
+      },
+      {
+       "time": 0.4,
+       "x": 1.4,
+       "y": 1.4
+      },
+      {
+       "time": 0.999,
+       "x": 1.4,
+       "y": 1.4
+      },
+      {
+       "time": 1.0,
+       "x": 0.3,
+       "y": 0.3
+      },
+      {
+       "time": 2.0,
+       "x": 1.086,
+       "y": 1.086
+      }
+     ]
+    },
+    "smoke_4": {
+     "translate": [
+      {
+       "x": 2.857,
+       "y": 46.429
+      },
+      {
+       "time": 0.9,
+       "x": 8.0,
+       "y": 130.0
+      },
+      {
+       "time": 1.499,
+       "x": 0,
+       "y": 130
+      },
+      {
+       "time": 1.5,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "time": 2.0,
+       "x": 2.857,
+       "y": 46.429
+      }
+     ],
+     "scale": [
+      {
+       "x": 0.693,
+       "y": 0.693
+      },
+      {
+       "time": 0.9,
+       "x": 1.4,
+       "y": 1.4
+      },
+      {
+       "time": 1.499,
+       "x": 1.4,
+       "y": 1.4
+      },
+      {
+       "time": 1.5,
+       "x": 0.3,
+       "y": 0.3
+      },
+      {
+       "time": 2.0,
+       "x": 0.693,
+       "y": 0.693
+      }
+     ]
+    }
+   },
+   "slots": {
+    "wheel_front_L": {
+     "rgba": [
+      {
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "wheel_front_R": {
+     "rgba": [
+      {
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "wheel_rear_L": {
+     "rgba": [
+      {
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "wheel_rear_R": {
+     "rgba": [
+      {
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "body": {
+     "rgba": [
+      {
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "rear_door_L": {
+     "rgba": [
+      {
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "rear_door_R": {
+     "rgba": [
+      {
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "bumper_rear": {
+     "rgba": [
+      {
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "bumper_front": {
+     "rgba": [
+      {
+       "color": "cccccc00"
+      }
+     ]
+    },
+    "fx_dent": {
+     "attachment": [
+      {
+       "name": "fx_dent"
+      }
+     ],
+     "rgba": [
+      {
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "headlight_R": {
+     "rgba": [
+      {
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "headlight_L": {
+     "attachment": [
+      {
+       "name": "headlight_L_cracked"
+      }
+     ],
+     "rgba": [
+      {
+       "color": "ccccccff"
+      },
+      {
+       "time": 1.3,
+       "color": "ccccccff"
+      },
+      {
+       "time": 1.34,
+       "color": "cccccc40"
+      },
+      {
+       "time": 1.4,
+       "color": "ccccccff"
+      },
+      {
+       "time": 1.46,
+       "color": "cccccc30"
+      },
+      {
+       "time": 1.52,
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "mirror_L": {
+     "rgba": [
+      {
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "mirror_R": {
+     "rgba": [
+      {
+       "color": "cccccc00"
+      }
+     ]
+    },
+    "roof": {
+     "rgba": [
+      {
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "tail_light_L": {
+     "rgba": [
+      {
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "tail_light_R": {
+     "rgba": [
+      {
+       "color": "ccccccff"
+      }
+     ]
+    },
+    "smoke_1": {
+     "rgba": [
+      {
+       "color": "8a8a9000"
+      },
+      {
+       "time": 0.25,
+       "color": "8a8a9066"
+      },
+      {
+       "time": 1.4,
+       "color": "8a8a9000"
+      },
+      {
+       "time": 2.0,
+       "color": "8a8a9000"
+      }
+     ]
+    },
+    "smoke_2": {
+     "rgba": [
+      {
+       "color": "8a8a9000"
+      },
+      {
+       "time": 0.499,
+       "color": "8a8a9000"
+      },
+      {
+       "time": 0.5,
+       "color": "8a8a9000"
+      },
+      {
+       "time": 0.75,
+       "color": "8a8a9066"
+      },
+      {
+       "time": 1.9,
+       "color": "8a8a9000"
+      },
+      {
+       "time": 2.0,
+       "color": "8a8a9000"
+      }
+     ]
+    },
+    "smoke_3": {
+     "rgba": [
+      {
+       "color": "8a8a9023"
+      },
+      {
+       "time": 0.4,
+       "color": "8a8a9000"
+      },
+      {
+       "time": 0.999,
+       "color": "8a8a9000"
+      },
+      {
+       "time": 1.0,
+       "color": "8a8a9000"
+      },
+      {
+       "time": 1.25,
+       "color": "8a8a9066"
+      },
+      {
+       "time": 2.0,
+       "color": "8a8a9023"
+      }
+     ]
+    },
+    "smoke_4": {
+     "rgba": [
+      {
+       "color": "8a8a904f"
+      },
+      {
+       "time": 0.9,
+       "color": "8a8a9000"
+      },
+      {
+       "time": 1.499,
+       "color": "8a8a9000"
+      },
+      {
+       "time": 1.5,
+       "color": "8a8a9000"
+      },
+      {
+       "time": 1.75,
+       "color": "8a8a9066"
+      },
+      {
+       "time": 2.0,
+       "color": "8a8a904f"
+      }
+     ]
+    }
+   }
+  }
+ }
+}

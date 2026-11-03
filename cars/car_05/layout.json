@@ -1,0 +1,141 @@
+{
+ "psd_size": [
+  1600,
+  1600
+ ],
+ "scale": 0.5,
+ "layers": {
+  "wheel_front_L": [
+   486,
+   294,
+   565,
+   477
+  ],
+  "wheel_front_R": [
+   1036,
+   294,
+   1115,
+   477
+  ],
+  "wheel_rear_L": [
+   482,
+   1099,
+   563,
+   1288
+  ],
+  "wheel_rear_R": [
+   1038,
+   1099,
+   1119,
+   1288
+  ],
+  "body": [
+   506,
+   133,
+   1093,
+   1492
+  ],
+  "rear_door_L": [
+   594,
+   1364,
+   804,
+   1471
+  ],
+  "rear_door_R": [
+   798,
+   1364,
+   1008,
+   1471
+  ],
+  "bumper_rear": [
+   530,
+   1398,
+   1069,
+   1500
+  ],
+  "bumper_front": [
+   546,
+   108,
+   1054,
+   196
+  ],
+  "headlight_R": [
+   956,
+   161,
+   1063,
+   243
+  ],
+  "headlight_L": [
+   534,
+   163,
+   641,
+   244
+  ],
+  "mirror_L": [
+   447,
+   470,
+   548,
+   542
+  ],
+  "mirror_R": [
+   1048,
+   470,
+   1149,
+   542
+  ],
+  "roof": [
+   566,
+   481,
+   1033,
+   1366
+  ],
+  "tail_light_L": [
+   551,
+   1400,
+   622,
+   1463
+  ],
+  "tail_light_R": [
+   977,
+   1400,
+   1048,
+   1463
+  ],
+  "shadow": [
+   387,
+   48,
+   1209,
+   1560
+  ],
+  "car_flash": [
+   447,
+   108,
+   1153.0,
+   1504.0
+  ],
+  "fx_dent": [
+   546,
+   148,
+   1054.0,
+   368.0
+  ]
+ },
+ "order": [
+  "wheel_front_L",
+  "wheel_front_R",
+  "wheel_rear_L",
+  "wheel_rear_R",
+  "body",
+  "rear_door_L",
+  "rear_door_R",
+  "bumper_rear",
+  "bumper_front",
+  "headlight_R",
+  "headlight_L",
+  "mirror_L",
+  "mirror_R",
+  "roof",
+  "tail_light_L",
+  "tail_light_R"
+ ]
+}

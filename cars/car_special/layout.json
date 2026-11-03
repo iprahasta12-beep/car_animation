@@ -1,0 +1,150 @@
+{
+ "psd_size": [
+  1600,
+  1600
+ ],
+ "scale": 0.5,
+ "layers": {
+  "bottom_body": [
+   301,
+   19,
+   1280,
+   1433
+  ],
+  "wheel_rear_L": [
+   309,
+   989,
+   623,
+   1549
+  ],
+  "wheel_rear_R": [
+   976,
+   989,
+   1290,
+   1549
+  ],
+  "body": [
+   565,
+   381,
+   1015,
+   1564
+  ],
+  "stripes": [
+   673,
+   676,
+   922,
+   1471
+  ],
+  "fender_rear_R": [
+   944,
+   955,
+   1257,
+   1499
+  ],
+  "fender_rear_L": [
+   342,
+   955,
+   656,
+   1499
+  ],
+  "bumper_rear": [
+   577,
+   1390,
+   1018,
+   1532
+  ],
+  "blower_scoop": [
+   637,
+   178,
+   933,
+   478
+  ],
+  "engine_block": [
+   585,
+   353,
+   914,
+   660
+  ],
+  "exhaust_pipe_L": [
+   454,
+   497,
+   639,
+   961
+  ],
+  "exhaust_pipe_R": [
+   954,
+   497,
+   1140,
+   961
+  ],
+  "header_cover_L": [
+   593,
+   363,
+   730,
+   624
+  ],
+  "header_cover_R": [
+   867,
+   363,
+   1005,
+   624
+  ],
+  "susp_arm_L": [
+   530,
+   212,
+   667,
+   440
+  ],
+  "susp_arm_R": [
+   933,
+   212,
+   1070,
+   440
+  ],
+  "wheel_front_L": [
+   447,
+   264,
+   549,
+   523
+  ],
+  "wheel_front_R": [
+   1040,
+   264,
+   1142,
+   523
+  ],
+  "wing_front": [
+   418,
+   27,
+   1175,
+   275
+  ],
+  "shadow": [
+   265,
+   -11,
+   1349,
+   1596
+  ]
+ },
+ "order": [
+  "bottom_body",
+  "wheel_rear_L",
+  "wheel_rear_R",
+  "body",
+  "stripes",
+  "fender_rear_R",
+  "fender_rear_L",
+  "bumper_rear",
+  "blower_scoop",
+  "engine_block",
+  "exhaust_pipe_L",
+  "exhaust_pipe_R",
+  "header_cover_L",
+  "header_cover_R",
+  "susp_arm_L",
+  "susp_arm_R",
+  "wheel_front_L",
+  "wheel_front_R",
+  "wing_front"
+ ]
+}

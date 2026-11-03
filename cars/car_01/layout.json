@@ -1,0 +1,108 @@
+{
+ "psd_size": [
+  1600,
+  1600
+ ],
+ "scale": 0.5,
+ "layers": {
+  "wheel_front_L": [
+   475,
+   306,
+   549,
+   556
+  ],
+  "wheel_front_R": [
+   1047,
+   306,
+   1121,
+   556
+  ],
+  "wheel_rear_L": [
+   456,
+   1091,
+   530,
+   1341
+  ],
+  "wheel_rear_R": [
+   1062,
+   1091,
+   1136,
+   1341
+  ],
+  "body": [
+   482,
+   135,
+   1117,
+   1508
+  ],
+  "stripes": [
+   705,
+   153,
+   903,
+   1458
+  ],
+  "bumper_front": [
+   544,
+   98,
+   1055,
+   202
+  ],
+  "bumper_rear": [
+   508,
+   1418,
+   1093,
+   1511
+  ],
+  "glass_front": [
+   582,
+   580,
+   1017,
+   751
+  ],
+  "glass_rear": [
+   582,
+   1066,
+   1022,
+   1224
+  ],
+  "hood_scoop": [
+   708,
+   301,
+   898,
+   495
+  ],
+  "mirror_L": [
+   487,
+   654,
+   586,
+   715
+  ],
+  "mirror_R": [
+   1019,
+   654,
+   1118,
+   715
+  ],
+  "shadow": [
+   396,
+   38,
+   1196,
+   1571
+  ]
+ },
+ "order": [
+  "wheel_front_L",
+  "wheel_front_R",
+  "wheel_rear_L",
+  "wheel_rear_R",
+  "body",
+  "stripes",
+  "bumper_front",
+  "bumper_rear",
+  "glass_front",
+  "glass_rear",
+  "hood_scoop",
+  "mirror_L",
+  "mirror_R"
+ ]
+}

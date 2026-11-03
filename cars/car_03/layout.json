@@ -1,0 +1,108 @@
+{
+ "psd_size": [
+  1600,
+  1600
+ ],
+ "scale": 0.5,
+ "layers": {
+  "wheel_back_L": [
+   445,
+   1063,
+   587,
+   1355
+  ],
+  "wheel_back_R": [
+   1008,
+   1063,
+   1150,
+   1355
+  ],
+  "wheel_front_L": [
+   460,
+   187,
+   575,
+   471
+  ],
+  "wheel_front_R": [
+   1021,
+   187,
+   1136,
+   471
+  ],
+  "body": [
+   495,
+   84,
+   1104,
+   1515
+  ],
+  "hood": [
+   522,
+   68,
+   1078,
+   398
+  ],
+  "bumper_front": [
+   530,
+   48,
+   1071,
+   166
+  ],
+  "bumper_rear": [
+   517,
+   1451,
+   1083,
+   1548
+  ],
+  "cab_roof": [
+   538,
+   461,
+   1060,
+   861
+  ],
+  "mirror_L": [
+   428,
+   439,
+   564,
+   518
+  ],
+  "mirror_R": [
+   1031,
+   439,
+   1167,
+   518
+  ],
+  "spare_tire": [
+   647,
+   995,
+   954,
+   1296
+  ],
+  "tailgate": [
+   511,
+   1347,
+   1089,
+   1484
+  ],
+  "shadow": [
+   368,
+   -12,
+   1227,
+   1608
+  ]
+ },
+ "order": [
+  "wheel_back_L",
+  "wheel_back_R",
+  "wheel_front_L",
+  "wheel_front_R",
+  "body",
+  "hood",
+  "bumper_front",
+  "bumper_rear",
+  "cab_roof",
+  "mirror_L",
+  "mirror_R",
+  "spare_tire",
+  "tailgate"
+ ]
+}

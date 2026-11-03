@@ -1,0 +1,122 @@
+{
+ "psd_size": [
+  1600,
+  1600
+ ],
+ "scale": 0.5,
+ "layers": {
+  "wheel_front_L": [
+   441,
+   345,
+   531,
+   585
+  ],
+  "wheel_front_R": [
+   1071,
+   345,
+   1161,
+   585
+  ],
+  "wheel_rear_L": [
+   431,
+   1060,
+   521,
+   1300
+  ],
+  "wheel_rear_R": [
+   1081,
+   1060,
+   1171,
+   1300
+  ],
+  "body": [
+   456,
+   195,
+   1142,
+   1429
+  ],
+  "bumper_front": [
+   548,
+   164,
+   1050,
+   262
+  ],
+  "bumper_rear": [
+   491,
+   1334,
+   1109,
+   1441
+  ],
+  "headlight_L": [
+   548,
+   220,
+   664,
+   309
+  ],
+  "headlight_R": [
+   936,
+   220,
+   1052,
+   309
+  ],
+  "mirror_L": [
+   422,
+   567,
+   543,
+   637
+  ],
+  "mirror_R": [
+   1050,
+   567,
+   1171,
+   637
+  ],
+  "roof_spoiler": [
+   590,
+   1069,
+   1011,
+   1152
+  ],
+  "roof": [
+   562,
+   585,
+   1032,
+   1089
+  ],
+  "tail_light_L": [
+   508,
+   1215,
+   605,
+   1349
+  ],
+  "tail_light_R": [
+   995,
+   1216,
+   1092,
+   1350
+  ],
+  "shadow": [
+   362,
+   104,
+   1231,
+   1500
+  ]
+ },
+ "order": [
+  "wheel_front_L",
+  "wheel_front_R",
+  "wheel_rear_L",
+  "wheel_rear_R",
+  "body",
+  "bumper_front",
+  "bumper_rear",
+  "headlight_L",
+  "headlight_R",
+  "mirror_L",
+  "mirror_R",
+  "roof_spoiler",
+  "roof",
+  "tail_light_L",
+  "tail_light_R"
+ ]
+}

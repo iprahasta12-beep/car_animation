@@ -1,0 +1,101 @@
+{
+ "psd_size": [
+  1600,
+  1600
+ ],
+ "scale": 0.5,
+ "layers": {
+  "wheel_front_L": [
+   458,
+   252,
+   570,
+   499
+  ],
+  "wheel_front_R": [
+   1028,
+   252,
+   1140,
+   499
+  ],
+  "wheel_back_L": [
+   435,
+   1004,
+   561,
+   1279
+  ],
+  "wheel_back_R": [
+   1032,
+   1004,
+   1158,
+   1279
+  ],
+  "body": [
+   472,
+   92,
+   1127,
+   1514
+  ],
+  "stripe": [
+   749,
+   102,
+   850,
+   1502
+  ],
+  "hood_scoop": [
+   689,
+   269,
+   910,
+   456
+  ],
+  "spoiler": [
+   480,
+   1278,
+   1119,
+   1431
+  ],
+  "wiper_L": [
+   627,
+   530,
+   770,
+   583
+  ],
+  "wiper_R": [
+   819,
+   543,
+   967,
+   558
+  ],
+  "front_bumper": [
+   522,
+   57,
+   1078,
+   165
+  ],
+  "rear_bumper": [
+   509,
+   1455,
+   1087,
+   1547
+  ],
+  "shadow": [
+   375,
+   -3,
+   1218,
+   1607
+  ]
+ },
+ "order": [
+  "wheel_front_L",
+  "wheel_front_R",
+  "wheel_back_L",
+  "wheel_back_R",
+  "body",
+  "stripe",
+  "hood_scoop",
+  "spoiler",
+  "wiper_L",
+  "wiper_R",
+  "front_bumper",
+  "rear_bumper"
+ ]
+}
